@@ -1,0 +1,7 @@
+[Mon May  4 16:09:56 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202
+[Mon May  4 16:10:06 2026] MiniUnzip.cpp::fs::MiniUnzip::open(const fslib::Path&)::22::23::nullptr!
+[Mon May  4 16:10:06 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202
+[Mon May  4 16:13:47 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202
+[Mon May  4 17:27:34 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202
+[Fri Aug 14 07:19:14 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202
+[Thu Oct 22 02:33:52 2026] DataContext.cpp::data::DataContext::import_svi_files(sys::Task*)::172::21::fslib::Directory.cpp::fslib::Directory::open(const fslib::Path&, bool)::62:202

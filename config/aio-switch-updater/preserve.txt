@@ -1,0 +1,15 @@
+/atmosphere/config/
+/bootloader/hekate_ipl.ini
+/bootloader/nyx.ini
+/config/sys-clk/
+/config/status-monitor/
+/config/ultrahand/config.ini
+/config/ultrahand/theme.ini
+/config/ultrahand/overlays.ini
+/config/ultrahand/packages.ini
+/config/sys-ftpd/
+/config/sys-ftpd-10k/
+/config/Fizeau/
+/config/MissionControl/
+/config/sys-con/
+/config/sys-patch/

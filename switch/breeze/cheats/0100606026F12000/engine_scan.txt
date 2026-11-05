@@ -1,0 +1,85 @@
+# Breeze engine scan  TID 0100606026F12000  BID 84E182F72EE1DA4F
+#scan=7
+#engine=Unreal Engine 5
+#version=(5.6 or later)
+#loadable=
+Engine analysis: 16 MB of read-only data in 4 modules, 602 ms
+  Engine: Unreal Engine 5 (5.6 or later)
+    evidence: no version banner; /Script/CoreUObject x2, r.Nanite.* x153, r.Lumen.* x389, highest UE5.n in help text 5.6
+  Middleware: CRIWARE, PhysX, Box2D
+  Renderer imports: NVN
+  Nintendo SDK: 20.5.17
+  Modules: nnrtld 0.0MB, FFRS-Switch-Shipping.nss 94.4MB, multimedia 3.3MB, nnSdk 6.4MB
+  Breeze tools: Main > Unreal (UObject view, function map, pointer chains)
+  Loadable modules (nn::ro): none mapped
+
+# pattern  count  first (module+offset)  text there
+UnityEngine.               0
+UnityInstalls/             0
+Unity Technologies         0
+++UE5+Release-             0
+++UE4+Release-             0
+UE4Game                    0
+/Engine/Source/Runtime/    0
+/Script/CoreUObject        2       FFRS-Switch-Shipping.nss+0x5F404C2  /Script/CoreUObject
+r.Nanite.                  153     FFRS-Switch-Shipping.nss+0x5EDFF8E  r.Nanite.MaterialVisibility
+r.Lumen.                   389     FFRS-Switch-Shipping.nss+0x5EDC4CE  r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.NumThicknessStepsToDetermineCertainty
+UE5.                       2       FFRS-Switch-Shipping.nss+0x61FFE2A  Default: True (new/fixed). Introduced in UE5.6 that UWorld::OnActorSpawned will run only after the Actor has Finished...
+GMS2Cache                  0
+YoYo Games                 0
+gml_Object_                0
+Godot Engine               0
+Agtk.scriptFunctions       0
+PGMMV                      0
+cocos2d-x-                 0
+Clickteam                  0
+Chowdren                   0
+renpy                      0
+MonoGame                   0
+Microsoft.Xna.Framework    0
+Defold                     0
+HashLink                   0
+love.graphics              0
+kex_                       2       FFRS-Switch-Shipping.nss+0x6381ACF  tls_construct_ctos_psk_kex_modes
+via.Application            0
+PhyreEngine                0
+RPG Maker                  0
+il2cpp                     0
+mono_jit                   0
+LuaJIT                     0
+Lua 5.                     0
+LuauCompile                0
+bytecode version mismatch  0
+Squirrel 3                 0
+Squirrel 2                 0
+QuickJS                    0
+Duktape                    0
+mruby                      0
+AngelScript                0
+js_cocos2dx_               0
+CRI Middleware             0
+CRIWARE                    37      FFRS-Switch-Shipping.nss+0x6326A3E  CRIWARE/MultiTapDelay
+Audiokinetic               0
+AkSoundEngine              0
+FMOD                       0
+Havok                      0
+PhysX                      1       FFRS-Switch-Shipping.nss+0x640DF50  PhysXTreeRebuildRate
+RAD Game Tools             0
+Esoteric Software          0
+Rewired.                   0
+DG.Tweening                0
+SDL_Init                   0
+libavcodec                 0
+Dear ImGui                 0
+Box2D                      3       FFRS-Switch-Shipping.nss+0x63581A6  MapAreaBox2DSet
+Scaleform                  0
+nvnBootstrapLoader         4       FFRS-Switch-Shipping.nss+0x5ECEBD2  nvnBootstrapLoader
+vkCreateInstance           0
+eglGetDisplay              0
+nnSdk-                     1       nnSdk+0xB2E181  SDK MW+Nintendo+NintendoSdk_nnSdk-20_5_17-Release
+
+# module  kind  code (from main)  code size  r-- size  build id (where read)
+nnrtld                           static    -0x6000        0x3000      0x1000      387E9A52A10AC682BD84858284D2EFF7CD22C767 (GNU note)
+FFRS-Switch-Shipping.nss         static    0x0            0x5E6C000   0x96A000    84E182F72EE1DA4F477804BD05B54C15 (GNU note)
+multimedia                       static    0x9B54000      0x357000    0x1CB000    AB62FE8EDD07A6A293F885D54359E5599CCADA89 (GNU note)
+nnSdk                            static    0xA1C0000      0x663000    0x4CC000    0023A1B06130CD795F7BC4613772AF0AF71C8CFD (GNU note)
