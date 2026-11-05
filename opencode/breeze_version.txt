@@ -1,0 +1,347 @@
+beta127.01
+Get Latest Cheat from TomVita loads committed (WIP)
+cheats when a game has no release, and says so.
+Cheat source fixes (units, mods, Discard, Import);
+Check accepts mrs/msr nzcv. For Breezehand 0.10.4.
+beta127.00
+Cheat source file: one <TitleID>.ini per game, names for
+each game version; split ASM cheats, mods (a value as a
+list of cheats), shelf, pointer cheats; Cheat composer and
+a PC editor. Main > Diagnostics for problem reports.
+beta126.02
+Cheats: folders inside folders, as in Breezehand.
+A opens a folder, B goes back up; the title
+shows where you are.
+beta126.01
+Make cheat: Execute cheat (ZR+X) does a row once,
+e.g. gives the item, without adding a cheat.
+Cheats for Harvest Moon Echoes of Teradea in MyNXCheats.
+beta126.00
+Games (Main, ZR+X): Breeze as HOME screen - icons,
+launch, close, details, search, airplane mode, Nintendo
+applets (SwitchU 1.2.0n). PC connect: sleeping PC no
+longer hangs Breeze; PC app screen ~2x faster.
+beta125.06
+Make cheat (Cheats menu, R+ZL): cheats from a recipe
+and a table, first for Harvest Moon item give.
+Assemble all ASM safe to repeat, moves caves without
+a script; Relocate Code Cave removed. Field view opens
+game structs. Same gen2 fork (v0.20).
+beta125.05
+Code modules (Tales of Eternia Remastered): function names
+in ASM Explorer, Code watch over the module, watch rows
+that name the module's callers; engine scan per module. 
+gen2 v0.20 rebuilt on AMS 1.12.1.
+beta125.04
+Games with code in a module (Tales of Eternia
+Remastered): the auto master takes R1 from the loader's
+ModuleObject; R1 cheat makers and caves fixed for module
+games. Lines like 580F3100 show their second register
+right. Same gen2 fork (v0.20).
+beta125.03
+PC app: Decompile (F6) shows the function as C beside
+the disassembly, made by Ghidra on the PC (downloads it
+the first time). Unreal maps give names in the PC
+disassembler; C++ virtuals named from class vtables.
+Connect... and one app at a time. Same gen2 fork (v0.20).
+beta125.02
+Unreal object view: the pointer chain on the bottom line
+by property name, and Find chain (ZR+Down) back to main or
+GWorld; Use chain for Make cheat. breezehand_watch.ovl
+0.10.3c works with gen2 v0.20 and reports Breeze-only
+watches. Same gen2 fork (v0.20).
+beta125.01
+Fixes. Lists kept a wrong view or cursor after a screen
+changed its rows (open a class and back, filter, search):
+empty panel, cursor off screen. Code watch now runs on
+Unreal games. Jump to target / Trace cheat keep the
+pointer chain of a cheat ending in a type 0 line. PC app
+debugger: change one value of a vector register.
+Same gen2 fork (v0.20).
+beta125.00
+PC app: Text view (Breeze's screen as text: 400 rows,
+every action as a button, find, copy, save), Disassembler
+and a debugger on Break and Trace (break, step, registers,
+stack, memory). Code watch on games with no function map.
+Fix: a watch started from the gen2 menu after a code watch
+could freeze the game. Same gen2 fork (v0.20).
+beta124.08
+GameMaker: from a value found by memory search, Class
+field (ZL+ZR+Y) opens the object that owns it, on that
+variable; Make cheat from there. Code watch: Search by
+name; Mark now works with Home toggle on Fast restart.
+Fixes: GameMaker button, field view chain. Same gen2
+fork as beta124.07 (v0.20).
+beta124.07
+Fix: a method or code watch running when the console
+slept left breaks in the game, which crashed it later.
+New gen2 fork (v0.20) needed: Settings > Install gen2
+fork. GameMaker: Make cheat from a variable (pointer
+cheat for a global, a hook for an object), offsets, ids.
+beta124.06
+GameMaker (YYC): Main > GameMaker lists the global
+variables by name with live values; Code watch needs no
+preparation and lists by object; Watch methods, then Field
+view of object, opens an instance and its named variables.
+Same gen2 fork as beta124.05 (v0.19).
+beta124.05
+Code watch (gen2 menu): a break on every function of the
+game, each stopping it once. Mark, do one thing, and the
+classes that ran for the first time are listed; Watch
+methods then gives the live objects. New gen2 fork (v0.19)
+needed: Settings > Install gen2 fork. PC connect: codewatch.
+beta124.04
+Method watch: which methods of a class are ever called, by
+whom and on which object. Break on one object: stop only
+when a method runs for the pinned instance. Field / method
+watches are kept and stepped through. New gen2 fork (v0.18)
+needed: Settings > Install gen2 fork. PC connect: prep,
+files, gen2, fieldwatch, methodwatch, probe, xref.
+beta124.03
+Field watch (Field view, LS+ZL): gen2 watches a whole
+instance and lists the fields the game reads or writes;
+Sweep unseen checks the rest at full game speed. Needs the
+new gen2 fork (v0.17): Settings > Install gen2 fork.
+beta124.02
+Make cheat (Memory Explorer, ZL+Down): a cheat from the
+pointer chain for one value or a loop over an array (all
+enemies); write always, where above / below, or copy
+another field. Fix: secondary search crash.
+beta124.01
+Game input: PC connect drives a virtual controller on the
+Switch (gamepad, gamepress, gamestick, gamestate).
+PC app: Game input row - play the game with the PC keyboard
+or an Xbox-style controller; HOME, Screenshot, Album, Record.
+beta124.00
+Game files: Breeze reads the running game's own files.
+Unity needs no dump.cs: Class Link, Descendent, Load field
+view work without it; Il2Cpp and dumptool buttons removed.
+Save snapshots with a picture. PC app: file manager,
+Stop game, Start game.
+beta123.11
+Dynamic view: hold ZL, ZR or ZL+ZR to see that key's
+buttons, and a Dynamic layout that turns it on everywhere.
+Built-in layouts are green and cannot be overwritten.
+Many buttons got a shortcut; the ones that never worked moved.
+beta123.10
+ASM cheats: cave written first, three stages on toggle.
+Cheat folders: rename, cut, paste. Japanese title folders
+get the title id; sys-ftp updated. Lists page by one
+screen; field views refresh. Exit on Main is ZR+B.
+beta123.09
+Unity: field views list the GameObject's other components
+and open them; filter rows with ZL+Up. Field maps and
+field views keep every field again. Find chain lists
+routes it used to drop.
+beta123.08
+New PC app drives Breeze from the PC. Improved Jump to 
+target runs the cheat as a dry run; new Trace cheat.
+Find chain walks Godot's tree, and on Unity follows
+GameObjects and re-checks chains.
+beta123.07
+Unity: instance lists include objects of subclasses;
+Search maps takes several words (modchar life). Breeze
+overlay now shows in screenshots.
+beta123.06
+Unreal: UE5 games without a version banner are recognised;
+root chain read by name; Browse lists every object; new
+Attributes (GAS) view with Make cheat. Gen2 fork for HOS23
+beta123.05
+Dictionary views: Make cheat on _count and Extract through
+a dictionary now work; value types show in a fresh session.
+Guide: Bluey cheats with Breeze (link in release note).
+beta123.04
+Keyboard: copy/cut/paste stack on ZL+Y/B/X, undo on Minus,
+STR/WSTR formats, whole-glyph editing, held keys repeat.
+Memory Explorer Copy address. Field view shows its chain.
+beta123.03
+Game information shows the engine, version, scripting and
+middleware. Cave floor and engine scan run once per game on
+attach. Fixed: cheat names with brackets, small Unity classes.
+beta123.02
+Add ASM can place a code cave below main (nnrtld),
+written through R1, when main is full or Alt ASM is on. Jump
+to target, Jump to ASM and the disassembly follow such caves.
+beta123.01
+Find chain through dictionaries, generic singletons and
+interface fields. Cheats through a list check the entry by
+your Extract picks (match, then value); new Make cheat (scan)
+finds the entry when the list is reordered.
+beta123.00
+Unity menu on Main: find values by name (usual suspects, map
+search, singletons), list live objects, and Find chain builds
+the pointer chain, through lists too, for bookmarks and cheats
+with a name check. Find chain also on Candidates, field view.
+beta122.03
+Download: check buttons turn into install buttons; new Install /
+Update Sphaira. Downloads time out and close on exit, so a
+restart no longer stops downloads until a reboot. Advance search
+buttons are back; shortcuts of hidden buttons work.
+Add Bookmark in Memory Explorer u8 no longer closes Breeze.
+beta122.02
+Built-in focus layouts with a first-run choice.
+sys-ftp fix.
+beta122.01
+Settings: HOME daemon button installs home_daemon.zip from the
+Breeze folder, no SwitchU menu needed. New Breeze first setting
+starts the console in Breeze (SwitchU fork 1.2.0i). Fixes a
+crash opening the Break and Trace view on an unreadable address.
+beta122.00
+Registers screen: X and V pages (R), aligned columns, Smart and
+more formats, and V registers as 4 floats/2 doubles/4 ints/128.
+Focus menu opens on the layout file in effect and shows if your
+focus has changed from it; Save layout overwrites the whole file.
+Adds Restart Breeze. Shortcuts work for buttons on another page.
+beta121.01
+Overlay mode now gives up the display when Breeze is hidden, so
+Tesla overlays work again whenever Breeze is not shown. While it
+is shown Breeze keeps the controller and overlays cannot be used
+beta121.00
+Overlay mode: Home toggle=Overlay shows Breeze over the running
+game on HOME; the game keeps running (optional pause setting).
+Main menu SwitchU button opens the SwitchU menu. Install/Update
+SwitchU fork checks the version; needs SwitchU 1.2.0e or newer.
+beta120.00
+Adds Rebase (Down+ZR) for Unity (IL2CPP) games: records pointer
+chains and hooks by class/field/method names before an update,
+then rebuilds cheats after updating. Cheats are marked OK/FAIL
+with reasons in rebase.log. Cave code using ADR/ADRP/literals
+and multi-cave or C0 cheats are not supported.
+beta119.01
+Install SwitchU fork now downloads the newest tomvita/SwitchU
+release (1.2.0b: filter by name, close-game prompt, USB
+keyboard, sleep fix) instead of the pinned 1.2.0a.
+beta119.00
+HOME toggles between Breeze and the game with tomvita's SwitchU
+fork (No restart / Fast restart). Settings installs the fork
+and turns it on or off like SwitchU-Manager. Downloads run on
+a progress screen; fixes the crash at the end of an install.
+beta118.07
+Class field now verifies the cursor is inside a real UObject
+before opening it. Function Up/Down finds unnamed functions by
+scanning code prologues, improving labels in gaps of function
+maps. Fixes loadable module jumps and method labels.
+beta118.06
+Adds persistent field annotations to native C++ views with
+Annotate field (Y+ZR), accepted type hints, correct field width
+and stepping, and Treat as struct (+ + ZL) for plain records.
+Saves annotations in field_annotations.txt and struct declarations
+in struct_views.txt; old UE annotation files remain supported.
+beta118.05
+Unity static-field and static-block Class field fix
+beta118.04
+Lua detection now scans memory in blocks, finds Lua states kept
+inside managed C# fields, and runs on a progress screen with
+Pause/Restart. Large Lua tables open faster, diagnostics improve,
+and menu back-stack loops no longer freeze Breeze.
+beta118.03
+Gen2 attach no longer resets the cheat engine: cheats, toggles,
+and frozen addresses survive attach and detach. Adds explicit
+Reset CheatVM button. Fixes failed attach freezing the game and
+GDB watchpoints silently dying. Reinstall the gen2 fork and
+restart the console.
+beta118.02
+Adds Make ASM master: native-code Lua path resolver that shrinks
+each Lua cheat from over a hundred cheat words to five. Fixes
+stale pinned data area across restarts and reports over-long
+path segments instead of building cheats that never match.
+beta118.00
+Adds a Lua toolset for Lua-based games where memory search
+fails: walks the game's own object graph with measured layout,
+Dump all values into the candidate list, Find value and Find
+name, path-based bookmarks, and restart-proof cheats with a
+shared master resolver. Fixes disassemble_cheats.py conditionals.
+beta117.02
+Makes the Trim label scan a background job with progress, pause,
+resume, and partial results. Much faster cold and warm, Execute
+acts on scanned nodes only and keeps the rest, Analyse no longer
+freezes, and the label list is paged.
+beta117.00
+Names what each address is in candidate and jump back lists:
+Add Field Label shows Klass.field per row with a filtered mode,
+plus a Trim screen to keep or remove whole label groups. Gen2
+rows gain method labels and View caller. Adds jump back node
+list paging and fixes View class on empty dictionaries.
+beta116.02
+Fixes Assemble All wasting code cave space on the off cheat and
+silently breaking GameMaker variable cheats when caves move.
+Scripts and hook records are now updated after a pack, and
+scriptless variable cheats are carried with their cave.
+beta116.01
+Adds Instance View (ZL+X in the UObject view): read one offset
+across every live instance of a class to tell live state,
+per-type parameters, and shared constants apart. Adds Unreal
+Engine 4.16-4.22 support and ancestry-based player/pawn
+detection.
+beta116.00
+Adds Make GM cheat for GameMaker games, building per-variable
+cheats from a shared hook. Code caves are now allocated instead
+of guessed, fixing cheats overwriting each other. Adds Code Cave
+Map screen, one-pass Assemble All with cave packing, and fixes
+for cheat renaming and branch-distance bugs.
+beta115.00
+Fixes jump back searches running out of memory and crashing the
+console at deeper depths. Adds a live memory guard, Rewind to
+depth, resumable saved maps, per-node landing filter fix, and
+landing markers in Analyse. Old save.map files are not read.
+beta114.02
+Fixes pointer chains losing depth in native/RTTI field views and
+Extract failing on native C++ classes. Adds Condense filter,
+paging for blind views, multi-hop Extract, and Land-on-class
+chain ranking. Blind views scan deeper and class-pointer fields
+are now labelled.
+beta114.01
+Fixes pointer-chain errors and dump.cs crashes when browsing nested
+dictionaries and lists. Improves enum extraction and class-field
+discovery both with and without dump.cs.
+beta114.00
+Adds field extraction to Unity object-list rows, readable
+managed strings, and much faster IL2CPP function-map generation.
+Fixes class-object array and List<T> pointer strides and includes
+extracted values in field_view.log.
+beta113.00
+More help with games that don't use managed 
+classes.
+Improved `.aob` file generation to sanitize 
+cheat labels with illegal filename characters.
+beta112.00
+Greatly improves Unity field-view speed without 
+dump.cs.
+Improves arrays, dictionaries, generic types, 
+enums, and collection navigation.
+Fixes static-field detection and allows creating 
+cheats directly from static fields.
+beta111.00
+added Class Field for Native C++
+beta110.00 
+overhauls Unreal support with more reliable field 
+detection, graph-based object browsing, 
+class filtering and summaries, pointer-chain 
+bookmarks, field-map exports, and persistent caches.
+beta109.01
+automatically do Klass search when needed 
+beta109.00
+adds live Unity IL2CPP method browsing, type 
+navigation, and ASM function-map generation 
+without requiring dump.cs. It also fixes Klass 
+caching, automatic cheat-download fallback, 
+and Focused Actions errors.
+beta108.9c
+adding "Make AOB M" button. 
+The AOB tools now support all kinds of 
+style of ASM, not just mine.
+beta108.9b
+update Make AOB and load AOB buttons to 
+use the new format. Add ASM no longer
+produce .aob file.
+beta108.9a
+Allow non unique AOB.
+beta108.9
+Updated AOB system
+beta108.8.15  
+Expand bookmark depth to 15
+This version will wipe your customization and 
+make them default.
+You bookmark files will be wiped. Don't update 
+if you have something you want to keep in your 
+bookmark.
